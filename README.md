@@ -54,8 +54,14 @@ you should always clean up before the recompilation:
 
 `$ make clean && make`
 
+
 -------------------------------
-3. STRUCTURE OF THE SOURCE CODE
+3. OPTIONAL DEPENDENCIES
+-------------------------------
+TODO:
+
+-------------------------------
+4. STRUCTURE OF THE SOURCE CODE
 -------------------------------
 
 Short descriptions of key source files.
