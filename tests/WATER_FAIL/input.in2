@@ -1,0 +1,14 @@
+# Checking we fail gracefully when wrong water potential is requested
+&general
+watpot=5 ! only 1 - 4 are supported
+
+pot='mmwater'		
+nstep=1,
+mdtype='MD',		! classical MD
+dt=20.,			!number of steps and timestep
+/
+
+&nhcopt
+inose=0,		! Thermostating: Nose-Hoover 1, microcanonical 0,GLE 2, LE 3
+temp=0.0,		! initial temperature for Maxwell-Boltzmann sampling [au]
+/
